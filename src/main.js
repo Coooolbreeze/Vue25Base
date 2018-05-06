@@ -1,7 +1,6 @@
 import createApp from './create-app'
 import bus from './util/bus'
 import './assets/lib/iconfont'
-import 'vue2-animate/dist/vue2-animate.min.css'
 
 const { app, router, store } = createApp()
 

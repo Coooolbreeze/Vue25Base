@@ -4,7 +4,7 @@ const merge = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const baseConfig = require('./webpack.base.config')
 const VueServerPlugin = require('vue-server-renderer/server-plugin')
-// const ossConfig = require('../app.config').oss
+const ossConfig = require('../app.config').oss
 
 let config
 
@@ -33,8 +33,8 @@ config = merge(baseConfig, {
     libraryTarget: 'commonjs2',
     filename: 'server-entry.js',
     path: path.join(__dirname, '../server-build'),
-    // publicPath: isDev ? '/dist/' : ossConfig.host
-    publicPath: '/dist/'
+    publicPath: isDev ? '/dist/' : ossConfig.host
+    // publicPath: '/dist/'
   },
   externals: Object.keys(require('../package.json').dependencies),
   module: {

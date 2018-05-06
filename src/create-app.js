@@ -10,6 +10,7 @@ import Notification from './components/notification'
 import Loading from './components/loading'
 import Paginate from './components/paginate'
 
+import 'vue2-animate/dist/vue2-animate.min.css'
 import './assets/styles/global.styl'
 
 Vue.use(VueRouter)

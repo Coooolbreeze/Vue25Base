@@ -17,6 +17,9 @@ import TheMenu from './components/TheMenu.vue'
 import TheHeader from './components/TheHeader.vue'
 import TheLogin from './components/TheLogin.vue'
 import TheBlog from './components/TheBlog.vue'
+import BlogDetail from './components/BlogDetail.vue'
+import BlogList from './components/BlogList.vue'
+import BlogTags from './components/BlogTags.vue'
 import TheFooter from './components/TheFooter.vue'
 
 export default {
@@ -28,6 +31,9 @@ export default {
     TheHeader,
     TheLogin,
     TheBlog,
+    BlogDetail,
+    BlogList,
+    BlogTags,
     TheFooter
   }
 }
