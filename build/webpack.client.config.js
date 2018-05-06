@@ -53,6 +53,19 @@ if (isDev) {
             },
             'stylus-loader'
           ]
+        },
+        {
+          test: /\.css/,
+          use: [
+            'vue-style-loader',
+            'css-loader',
+            {
+              loader: 'postcss-loader',
+              options: {
+                sourceMap: true
+              }
+            }
+          ]
         }
       ]
     },
@@ -85,6 +98,19 @@ if (isDev) {
               }
             },
             'stylus-loader'
+          ]
+        },
+        {
+          test: /\.css/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            'css-loader',
+            {
+              loader: 'postcss-loader',
+              options: {
+                sourceMap: true
+              }
+            }
           ]
         }
       ]

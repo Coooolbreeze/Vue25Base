@@ -52,6 +52,19 @@ config = merge(baseConfig, {
           },
           'stylus-loader'
         ]
+      },
+      {
+        test: /\.css/,
+        use: [
+          isDev ? 'vue-style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true
+            }
+          }
+        ]
       }
     ]
   },

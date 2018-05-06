@@ -1,19 +1,56 @@
 <template>
-  <header class="header">
-    <h1>CoolTodo</h1>
+  <header id="header">
+    <div id="cover"></div>
+    <div class="container">
+      <div class="title">
+        <h2><b>李文祥·个人博客</b></h2>
+        September Dream of the end of summer
+      </div>
+    </div>
   </header>
 </template>
 
 <style lang="stylus" scoped>
-.header {
-  text-align: center;
+#header {
+  position: relative;
+  width: 100%;
+  height: 30vmin;
+  background: url('../assets/images/innocence.jpg');
+  background-size: 100% 100%;
+  font-size: 1.4rem;
+  font-family: '华文行楷';
+  padding-top: 10vmin;
+}
 
-  h1 {
-    font-size: 100px;
-    color: rgba(175, 47, 47, 0.4);
-    font-weight: 100;
-    margin: 20px;
+#cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to bottom, #2196f3 0%, #ffffff 70%);
+  opacity: 0.3;
+}
+
+.title {
+  position: relative;
+  z-index: 2;
+
+  h2 {
+    margin-bottom .5em
+  }
+}
+
+@media (max-width: 720px) {
+  #header {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #header {
+    font-size: .9rem;
   }
 }
 </style>
-

@@ -8,6 +8,7 @@ import createRouter from './router/index'
 import createStore from './store/index'
 import Notification from './components/notification'
 import Loading from './components/loading'
+import Paginate from './components/paginate'
 
 import './assets/styles/global.styl'
 
@@ -16,6 +17,7 @@ Vue.use(Vuex)
 Vue.use(Meta)
 Vue.use(Notification)
 Vue.use(Loading)
+Vue.use(Paginate)
 
 export default () => {
   const router = createRouter()
