@@ -11,6 +11,11 @@
 </template>
 
 <style lang="stylus" scoped>
+@font-face {
+  font-family: '华文行楷';
+  src: url('../assets/fonts/STXINGKA.TTF');
+}
+
 #header {
   position: relative;
   width: 100%;
