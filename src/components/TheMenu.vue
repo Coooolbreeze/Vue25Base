@@ -127,7 +127,7 @@ logo-size = 2em;
       height: 100%;
       padding: 0 0.8em;
       display: flex;
-      justify-content center
+      justify-content: center;
       align-items: center;
       transition: all 0.5s;
 
@@ -156,7 +156,7 @@ logo-size = 2em;
 @media (max-width: 720px) {
   #menu {
     height: 2.3em;
-    padding 0 .3em
+    padding: 0 0.3em;
 
     .logo {
       width: 1.6em;
@@ -189,11 +189,11 @@ logo-size = 2em;
     }
 
     .list>ul>li {
-      padding: 0 .1em;
+      padding: 0 0.1em;
     }
 
     .list>ul>li>a {
-      font-size: .7rem;
+      font-size: 0.7rem;
     }
   }
 }

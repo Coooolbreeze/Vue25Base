@@ -46,9 +46,9 @@ export default {
       position: relative;
       display: flex;
       align-items: center;
-      height: 26px;
-      margin: 5px 5px 1px 0;
-      padding: 0 8px 0 18px;
+      height: 2em;
+      margin: .5em .5em .1em 0;
+      padding: 0 .8em 0 1.8em;
       border-radius: 0 4px 4px 0;
       font-size: 0.8rem;
       overflow: hidden;
@@ -72,7 +72,7 @@ export default {
         left: 0;
         width: 0;
         height: 0;
-        border-width: 13px 13px 13px 0;
+        border-width: 1em 1em 1em 0;
         border-color: #fff transparent;
         border-style: solid;
       }
@@ -80,12 +80,12 @@ export default {
       &:after {
         position: absolute;
         content: '';
-        width: 5px;
-        height: 5px;
-        top: 11px;
-        left: 8px;
+        width: .4em;
+        height: .4em;
+        top: .9em;
+        left: .8em;
         border-radius: 100%;
-        background: #fff;
+        background: #ffffff;
       }
     }
   }
@@ -95,20 +95,20 @@ export default {
   #tags {
     ul {
       li {
-        height: 22px;
-        margin: 3px 3px 1px 0;
-        padding: 0 6px 0 16px;
-        font-size: .1rem;
+        height: 1.8em;
+        margin: .3em .3em .1em 0;
+        padding: 0 .6em 0 1.6em;
+        font-size: .7rem;
 
         &:before {
-          border-width: 11px 11px 11px 0;
+          border-width: .9em .9em .9em 0;
         }
 
         &:after {
-          width: 4px;
-          height: 4px;
-          top: 9px;
-          left: 8px;
+          width: .3em;
+          height: .3em;
+          top: .8em;
+          left: .7em;
         }
       }
     }
