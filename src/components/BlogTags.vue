@@ -95,13 +95,13 @@ export default {
   #tags {
     ul {
       li {
-        height: 2.1em;
+        height: 2.16em;
         margin: .3em .3em .1em 0;
-        padding: 0 1.2em 0 2em;
+        padding: 0 1em 0 1.9em;
         font-size: .7rem;
 
         &:before {
-          border-width: 1.08em 1.4em 1.08em 0;
+          border-width: 1.08em 1.2em 1.08em 0;
         }
 
         &:after {
