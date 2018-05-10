@@ -46,11 +46,11 @@ export default {
       position: relative;
       display: flex;
       align-items: center;
-      height: 2em;
+      height: 2.36em;
       margin: .5em .5em .1em 0;
-      padding: 0 .8em 0 1.8em;
+      padding: 0 1.4em 0 2.2em;
       border-radius: 0 4px 4px 0;
-      font-size: 0.8rem;
+      font-size: .8rem;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -72,7 +72,7 @@ export default {
         left: 0;
         width: 0;
         height: 0;
-        border-width: 1em 1em 1em 0;
+        border-width: 1.18em 1.4em 1.18em 0;
         border-color: #fff transparent;
         border-style: solid;
       }
@@ -82,8 +82,8 @@ export default {
         content: '';
         width: .4em;
         height: .4em;
-        top: .9em;
-        left: .8em;
+        top: 1em;
+        left: 1em;
         border-radius: 100%;
         background: #ffffff;
       }
@@ -95,20 +95,20 @@ export default {
   #tags {
     ul {
       li {
-        height: 1.8em;
+        height: 2.1em;
         margin: .3em .3em .1em 0;
-        padding: 0 .6em 0 1.6em;
+        padding: 0 1.2em 0 2em;
         font-size: .7rem;
 
         &:before {
-          border-width: .9em .9em .9em 0;
+          border-width: 1.08em 1.4em 1.08em 0;
         }
 
         &:after {
-          width: .3em;
-          height: .3em;
-          top: .8em;
-          left: .7em;
+          width: .35em;
+          height: .35em;
+          top: .9em;
+          left: 1em;
         }
       }
     }

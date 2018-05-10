@@ -117,6 +117,8 @@ logo-size = 2em;
 }
 
 .list {
+  height: 100%;
+
   ul {
     display: flex;
     flex-direction: row;
