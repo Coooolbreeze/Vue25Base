@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Coooolbreeze/MyBlog.git"
+    "url": "git+ssh://git@github.com/Coooolbreeze/Vue25Base.git"
   },
   "author": "Coooolbreeze",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Coooolbreeze/MyBlog/issues"
+    "url": "https://github.com/Coooolbreeze/Vue25Base/issues"
   },
-  "homepage": "https://github.com/Coooolbreeze/MyBlog#readme",
+  "homepage": "https://github.com/Coooolbreeze/Vue25Base#readme",
   "devDependencies": {
     "ali-oss": "^5.1.1",
     "autoprefixer": "^8.2.0",
