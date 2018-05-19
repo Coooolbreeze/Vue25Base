@@ -1,6 +1,5 @@
 import createApp from './create-app'
 import bus from './util/bus'
-import './assets/lib/iconfont'
 
 const { app, router, store } = createApp()
 

@@ -1,40 +1,23 @@
 <template>
   <div id="app">
     <div id="cover"></div>
-    <the-menu />
-    <the-header />
     <div class="bg">
       <transition name="fade" mode="out-in">
         <router-view />
       </transition>
     </div>
-    <the-footer />
   </div>
 </template>
 
 <script>
-import TheMenu from './components/TheMenu.vue'
-import TheHeader from './components/TheHeader.vue'
 import TheLogin from './components/TheLogin.vue'
-import TheBlog from './components/TheBlog.vue'
-import BlogDetail from './components/BlogDetail.vue'
-import BlogList from './components/BlogList.vue'
-import BlogTags from './components/BlogTags.vue'
-import TheFooter from './components/TheFooter.vue'
 
 export default {
   metaInfo: {
-    title: "Cooolbreeze's Blog"
+    title: 'App'
   },
   components: {
-    TheMenu,
-    TheHeader,
-    TheLogin,
-    TheBlog,
-    BlogDetail,
-    BlogList,
-    BlogTags,
-    TheFooter
+    TheLogin
   }
 }
 </script>
